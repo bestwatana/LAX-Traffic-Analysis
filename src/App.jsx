@@ -28,6 +28,10 @@ function App() {
         <Pie2/>
         <p>This pie chart comparison may let us understand the impact of COVID-19 pandemic on air travel a little better. The size of the pie represents the total amount of passenger. It is also clear that the ratio of international to domestic passenger has shifted due to border closures in countries outside of the US. Less than a quarter of the passengers at LAX in 2020 were international passengers.</p>
       <h3>End of Analysis</h3>
+      <a href="https://github.com/bestwatana/LAX-Traffic-Analysis.git">
+        Link to GitHub Repo
+      </a>
+
         {/* <LineChart/> */}
 
         {/* <img src={logo} className="App-logo" alt="logo" />
