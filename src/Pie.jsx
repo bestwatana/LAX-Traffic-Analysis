@@ -23,7 +23,7 @@ const Pie = ({ width = 600, height = 600 }) => {
   const _pieShapeData = pieGenerator(LAXData)
   return (
     <div>
-      <h3>Average Share of Passenger at Los Angeles Intl. Airport</h3>
+      <h3>Average Share of Passenger at LAX</h3>
       <p>Click on a slice to show information.</p>
       <div className="fields" style={{ display: "flex", justifyContent: "center" }}>
       <svg width={width} height={height}>
@@ -52,14 +52,14 @@ const Pie = ({ width = 600, height = 600 }) => {
       <div style={{marginTop: "3rem", textAlign: "left" }}>
 
           <h3>{terminal} Terminal Information</h3>
-          <p>
+          <text>
               <tspan>
-                Average Number of Passengers: {avgPassenger} passengers
+                Monthly Average Number of Passengers: {avgPassenger} passengers
               </tspan><br></br>
               <tspan>
                 Total Number of Passengers (2006-2021): {numPassenger} passengers
               </tspan><br></br>
-          </p>
+          </text>
       </div>
       </div>
     </div>

@@ -129,8 +129,8 @@ export const D3BarGraph = () => {
     const [keys, setKeys] = useState(allKeys);
   
     return (
-      <div style={{marginBottom: "5rem" }}>
-        <h3>Average Share of Passenger at Los Angeles Intl. Airport</h3>
+      <div style={{marginBottom: "2rem" }}>
+        <h3>Average Domestic vs International Passenger at LAX</h3>
         <StackedBarGraph datasets={data} colors={colors} keys={keys} />
         <div style={{marginLeft: "10rem" }}>
         <div className="fields" style={{ display: "flex" }}>
